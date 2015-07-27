@@ -9,29 +9,29 @@ class Fingerprints(object):
 		
 		self.data = {
 			'cms': {
-				'md5':			{'dir': 'data/cms/md5/',			'fps': []},
-				'reqex':		{'dir': 'data/cms/regex/',			'fps': []},
-				'string':		{'dir': 'data/cms/string/',			'fps': []},
-				'header':		{'dir': 'data/cms/header/',			'fps': []}
+				'md5':			{'dir': 'Scan_CMS/data/cms/md5/',			'fps': []},
+				'reqex':		{'dir': 'Scan_CMS/data/cms/regex/',			'fps': []},
+				'string':		{'dir': 'Scan_CMS/data/cms/string/',			'fps': []},
+				'header':		{'dir': 'Scan_CMS/data/cms/header/',			'fps': []}
 			},
 			'js': {
-				'md5':			{'dir': 'data/js/md5/',				'fps': []},
-				'reqex':		{'dir': 'data/js/regex/',			'fps': []},
+				'md5':			{'dir': 'Scan_CMS/data/js/md5/',				'fps': []},
+				'reqex':		{'dir': 'Scan_CMS/data/js/regex/',			'fps': []},
 			},
 			'platform': {
-				'md5':			{'dir': 'data/platform/md5/',		'fps': []},
-				'reqex':		{'dir': 'data/platform/regex/',		'fps': []},
-				'string':		{'dir': 'data/platform/string/',	'fps': []},
-				'header':		{'dir': 'data/platform/header/',	'fps': []}
+				'md5':			{'dir': 'Scan_CMS/data/platform/md5/',		'fps': []},
+				'reqex':		{'dir': 'Scan_CMS/data/platform/regex/',		'fps': []},
+				'string':		{'dir': 'Scan_CMS/data/platform/string/',	'fps': []},
+				'header':		{'dir': 'Scan_CMS/data/platform/header/',	'fps': []}
 			},
 			'vulnerabilities': {
-				'cvedetails':	{'dir':  'data/vulnerabilities/cvedetails/', 'fps': []},
+				'cvedetails':	{'dir':  'Scan_CMS/data/vulnerabilities/cvedetails/', 'fps': []},
 			},
-			'translator':		{'file': 'data/dictionary.json',	'dictionary': {}},
-			'error_pages':		{'file': 'data/error_pages.json',	'fps': []},
-			'interesting':		{'file': 'data/interesting.json',	'fps': []},
-			'subdomains':		{'file': 'data/subdomains.json',	'fps': []},
-			'os':				{'dir':  'data/os/',				'fps': []}
+			'translator':		{'file': 'Scan_CMS/data/dictionary.json',	'dictionary': {}},
+			'error_pages':		{'file': 'Scan_CMS/data/error_pages.json',	'fps': []},
+			'interesting':		{'file': 'Scan_CMS/data/interesting.json',	'fps': []},
+			'subdomains':		{'file': 'Scan_CMS/data/subdomains.json',	'fps': []},
+			'os':				{'dir':  'Scan_CMS/data/os/',				'fps': []}
 		}
 
 		# load fingerprints
